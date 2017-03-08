@@ -1,8 +1,6 @@
-# ![nutcat](https://cloud.seu.edu.cn/gitlab/nutcat/cat/raw/master/other/logo/nutcat.png)
+# ![nutcat](https://raw.githubusercontent.com/snowzjx/nutcat/master/other/logo/nutcat.png)
 
 Nutcat is a Pregel-like Graph Processing Framework implemented in Scala.
-
-[![build status](https://cloud.seu.edu.cn/gitlab/ci/projects/6/status.png?ref=master)](https://cloud.seu.edu.cn/gitlab/ci/projects/6?ref=master)
 
 ## How to use Nutcat?
 
