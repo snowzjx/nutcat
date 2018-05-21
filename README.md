@@ -196,12 +196,12 @@ Nutcat is a Pregel-like Graph Processing Framework implemented in Scala.
    }
    ```
 
-5. Define your AggregatorComputer object, it has to implements the traits```AggregatorComputer[VERTEX, GMSG]```
+5. Define your AggregatorComputer object, it has to implements the traits ```AggregatorComputer[VERTEX, GMSG]```
 
    ``` scala
-  class SSSPAggregatorComputer extends AggregatorComputer[Long, String] {
-    override def compute(superStepId: Long,
-                         inMessageList: Array[(Long, String)]): Option[(Long, String)] = ???
+   class SSSPAggregatorComputer extends AggregatorComputer[Long, String] {
+     override def compute(superStepId: Long,
+                         inMessageList: Array[(Long, String)]): Option[(Long, String)] = ??
    ```
 
    Now, we just use part of the SSSP implementation as an example.
